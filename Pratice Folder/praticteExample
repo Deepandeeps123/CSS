@@ -1,0 +1,147 @@
+<!-- Intro Html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratice</title>
+    <style>
+        h1{
+            color: rgb(173, 79, 79);
+        }
+    </style>
+    <link rel="stylesheet" href="./pratice.css">
+</head>
+<body>
+    <h1>Pratice in html and css</h1>
+    <h2 style="color: blue;">This is Heading1</h2>
+    <p>This is Paragraph</p>
+</body>
+</html>
+
+
+
+
+<!-- Intro Css -->
+
+
+p{
+    color: rgb(42, 126, 165);
+}
+
+
+
+
+
+
+<!-- Selector HTML -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratice</title>
+    <link rel="stylesheet" href="./pratice.css">
+</head>
+<body>
+    <div>
+        <h1>This is Heading1</h1>
+    <p id="p1">This is Paragraph1</p>
+    </div>
+
+    <div>
+        <h2 class="container">This is Heading2</h2>
+        <p class="container">This is Paragraoh2</p>
+    </div>
+
+    <div>
+        <h3>This is Heading3</h3>
+        <p id="p3">This is Paragraph3</p>
+    </div>
+
+    <div>
+        <h4>This is Heading4</h4>
+        <p id="p4">This is Paragraph4</p>
+    </div>
+
+    <div>
+        <h5>This is Heading5</h5>
+        <p>This is Paragraph5</p>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+<!-- selector css -->
+
+
+
+
+/* 1 */
+*{
+    color: firebrick;
+}
+
+/* 2 */
+h1{
+    color: black;
+}
+
+/* 3 */
+#p1{
+    color: black;
+}
+
+
+/* 4 */
+.container{
+    color: blue;
+}
+
+
+/* 5 */
+h3,h4{
+    color: gold;
+}
+#p3,#p4{
+    color: gold;
+}
+
+
+
+
+
+<!-- selector -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./pratice.css">
+    
+</head>
+<body>
+    <h1 >This is Heading1</h1>
+    <h1 >This is Heading2</h1>
+    <h1 >This is Heading3</h1>
+</body>
+</html>
+
+
+
+
+h1,h2,h3{
+    color: deepskyblue;
+}
