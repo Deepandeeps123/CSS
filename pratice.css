@@ -1,0 +1,115 @@
+/* .container h1{
+      color:yellow
+}
+
+
+.container > h1{
+      color: blue;
+} */
+
+
+
+/* .container h1:hover {
+      color: rgb(245, 18, 18);
+}
+
+
+
+.container > h1:hover {
+      color: blueviolet;
+} */
+/* .container > p:first-child {
+      color: blue;
+}
+
+
+.container > h1:first-child{
+      color: yellow;
+} */
+
+
+
+/* 
+.container :last-child{
+      color: violet;
+} */
+
+
+
+
+/* .container3 p:nth-child(10){
+      color: red;
+} */
+
+/* .container3 p:nth-child(2n){
+
+
+      color: red;
+} */
+
+
+
+
+/* 
+.container > h1:first-of-type{
+      color:red
+} */
+
+/* .container > p:first-of-type{
+      color: yellowgreen;
+}  */
+
+
+/* .container2 > h1:last-of-type{
+      color: rgb(237, 100, 134);
+}
+
+
+.container2 > p:last-of-type{
+      color:yellow
+} */
+
+
+
+
+ /* .container5 button:active {
+      color: tomato;
+}   */
+
+
+
+/* .container5 > button:active{
+      color: red;
+}
+ */
+
+
+
+ /* .container5 > button:active{
+      background-color: red;
+ } */
+
+/* .container5 > button {
+      background-color: aqua;
+      color: red;
+  } */
+  
+  
+  /* button {
+      color: red;
+      background-color: aqua;
+  } */
+
+
+
+  /* .container5 > button:active{
+      color: brown;
+      background-color: yellow;
+  } */
+
+
+
+
+  .container6 a:visited{
+      color: red
+  }
