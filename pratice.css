@@ -1,115 +1,58 @@
-/* .container h1{
-      color:yellow
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container1 {
+    height: 200px;
+    width: 300px;
+    background-color: cadetblue;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px; 
+    margin-left: 20px;  
 }
 
 
-.container > h1{
-      color: blue;
-} */
+.container1 >h1{
+    padding: 20px;
+}
 
-
-
-/* .container h1:hover {
-      color: rgb(245, 18, 18);
+.container1 > p{
+    padding: 20px;
 }
 
 
 
-.container > h1:hover {
-      color: blueviolet;
-} */
-/* .container > p:first-child {
-      color: blue;
+
+/* --------------------- */
+
+
+.container2 {
+    height: 200px;
+    width: 300px;
+    background-color: aqua;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
 }
 
 
-.container > h1:first-child{
-      color: yellow;
-} */
 
+.container2 > h1 {
+    padding: 20px;
 
-
-/* 
-.container :last-child{
-      color: violet;
-} */
-
-
-
-
-/* .container3 p:nth-child(10){
-      color: red;
-} */
-
-/* .container3 p:nth-child(2n){
-
-
-      color: red;
-} */
-
-
-
-
-/* 
-.container > h1:first-of-type{
-      color:red
-} */
-
-/* .container > p:first-of-type{
-      color: yellowgreen;
-}  */
-
-
-/* .container2 > h1:last-of-type{
-      color: rgb(237, 100, 134);
 }
 
 
-.container2 > p:last-of-type{
-      color:yellow
-} */
-
-
-
-
- /* .container5 button:active {
-      color: tomato;
-}   */
-
-
-
-/* .container5 > button:active{
-      color: red;
+.container2 > p{
+    padding: 20px;
 }
- */
-
-
-
- /* .container5 > button:active{
-      background-color: red;
- } */
-
-/* .container5 > button {
-      background-color: aqua;
-      color: red;
-  } */
-  
-  
-  /* button {
-      color: red;
-      background-color: aqua;
-  } */
-
-
-
-  /* .container5 > button:active{
-      color: brown;
-      background-color: yellow;
-  } */
-
-
-
-
-  .container6 a:visited{
-      color: red
-  }

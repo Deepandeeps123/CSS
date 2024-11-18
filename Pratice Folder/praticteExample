@@ -281,3 +281,647 @@ h1,h2,h3{
 .container   #para1 ~ p{
     color: brown;
 }
+
+
+
+
+
+<!-- --------------------------------------------------------------------------------- -->
+
+
+<!-- Pseudo Class -->
+
+
+<!-- html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PseudoClass</title>
+    <link rel="stylesheet" href="./pratice.css">
+</head>
+<body>
+    <h1>PseudoClass</h1>
+    <div class="container">
+        <h1>This is Heading1</h1>
+        <p>This is Paragraph1</p>
+        <div class="container2">
+            <h1>This is Heading2</h1>
+            <p>This is Paragraph2</p>
+        </div>
+    </div>
+
+    <div class="container3">
+        <p>para-1</p>
+        <p>para-2</p>
+        <p>para-3</p>
+        <p>para-4</p>
+        <p>para-5</p>
+        <p>para-6</p>
+        <p>para-7</p>
+        <p>para-8</p>
+        <p>para-9</p>
+        <p>para-10</p>
+    </div>
+
+
+
+    <div class="container5">
+        <button>Know More</button>
+    </div>
+
+
+
+
+    <div class="container6">
+        <a href="https://www.instagram.com/accounts/login/?hl=en">Instgram</a>5;5-
+        <a href="https://www.facebook.com/">Facebook</a>
+    </div>
+</body>
+</html>
+
+
+
+
+
+<!--CSS -->
+
+/* .container h1{
+    color:yellow
+}
+
+
+.container > h1{
+    color: blue;
+} */
+
+
+
+/* .container h1:hover {
+    color: rgb(245, 18, 18);
+}
+
+
+
+.container > h1:hover {
+    color: blueviolet;
+} */
+/* .container > p:first-child {
+    color: blue;
+}
+
+
+.container > h1:first-child{
+    color: yellow;
+} */
+
+
+
+/* 
+.container :last-child{
+    color: violet;
+} */
+
+
+
+
+/* .container3 p:nth-child(10){
+    color: red;
+} */
+
+/* .container3 p:nth-child(2n){
+
+
+    color: red;
+} */
+
+
+
+
+/* 
+.container > h1:first-of-type{
+    color:red
+} */
+
+/* .container > p:first-of-type{
+    color: yellowgreen;
+}  */
+
+
+/* .container2 > h1:last-of-type{
+    color: rgb(237, 100, 134);
+}
+
+
+.container2 > p:last-of-type{
+    color:yellow
+} */
+
+
+
+
+/* .container5 button:active {
+    color: tomato;
+}   */
+
+
+
+/* .container5 > button:active{
+    color: red;
+}
+*/
+
+
+
+/* .container5 > button:active{
+    background-color: red;
+} */
+
+/* .container5 > button {
+    background-color: aqua;
+    color: red;
+} */
+
+
+/* button {
+    color: red;
+    background-color: aqua;
+} */
+
+
+
+/* .container5 > button:active{
+    color: brown;
+    background-color: yellow;
+} */
+
+
+
+
+.container6 a:visited{
+    color: red
+}
+
+
+
+
+
+
+<!-- -------------------------------------------------------------------------------------------------------- -->
+
+
+
+
+<!-- pseudoElement -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>PseudoElement</title>
+   <link rel="stylesheet" href="./pratice.css">
+</head>
+<body>
+   <div class="container">
+       <h1>This is Heading1</h1>
+       <p>This is paragraph1</p>
+       <div class="container2">
+           <h1>This is Heading2</h1>
+           <p>This is paragraph</p>
+       </div>
+   </div>
+   <div class="container2">
+       <ul>
+           <li>list-1</li>
+           <li>list-2</li>
+           <li>list-3</li>
+           <li>list-4</li>
+           <li>list-5</li>
+           <li>list-6</li>
+           <li>list-7</li>
+           <li>list-8</li>
+           <li>list-9</li>
+           <li>list-10</li>
+       </ul>
+   </div>
+</body>
+</html>
+
+
+
+
+
+
+
+/* 1.before */
+
+/* .container > h1::before{
+      content: '*';
+}
+
+.container > p::before{
+      content: '++';
+} */
+
+
+
+/* .container > h1::after {
+      content: '*';
+}
+
+.container >p::after{
+      content: '++';
+} */
+
+
+
+/* .container > h1::first-line{ */
+      /* font-size: 80px; */
+      /* background-color: red; */
+      /* font-family: 'Courier New', Courier, monospace; */
+      /* font-style: unset;
+      font: 100;
+      font-weight: 300; */
+/* } */
+
+
+/* .container > h1::first-letter{
+      font-size: 60px;
+      color: red;
+} */
+
+
+/* ::selection{
+      background-color: black;
+      color: green;
+} */
+
+/* .container2 >ul>li::marker{
+      color: red;
+} */
+
+/* .container2 > ul>li :nth-child(1){
+      color: red;
+} */
+
+/* .container2 >ul>li:nth-child(2n){
+      color: red;
+  } */
+
+  .container2 > ul> li:nth-child(2n)::marker{
+      color: red;
+ }
+ 
+
+
+
+
+
+ <!-- ------------------------------------------------------------------------------------ -->
+
+
+
+
+
+
+ <!-- Font Property -->
+
+
+
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./pratice.css">
+</head>
+
+<body>
+    <a href="www.facebook.com">Facebook</a><br>
+    <a href="www.instragram.com">Instragram</a><br>
+    <a>youtube</a>
+
+        <h1>Font Property</h1>
+        <p id="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium enim repellendus rem quaerat
+            debitis dolorum rerum voluptates quo pariatur dignissimos. Fugit reprehenderit necessitatibus quae expedita
+            quia quaerat eius id saepe aliquam amet. Quaerat veniam aperiam consequuntur inventore earum maxime, magnam
+            minima accusantium modi possimus! Voluptatum similique sapiente illum. Ea facere mollitia sunt laudantium,
+            sequi dolorem voluptates nesciunt quo architecto provident totam voluptatum excepturi, ullam cumque?
+            Corporis dicta eveniet doloremque facere culpa nesciunt nam maxime maiores laboriosam? Quae sint quo rerum
+            vel aperiam culpa minima voluptate dicta perferendis placeat ex perspiciatis, expedita quod numquam iusto
+            deleniti dignissimos atque animi? Deleniti, a.</p>
+</body>
+
+</html>
+
+
+
+/* a[href]{
+    color: red;
+} */
+
+/* a[target]
+{
+  color: aqua;
+} */
+
+
+/* #p1{
+    font-size: 40px;
+} */
+
+
+/* #p1 {
+    font-weight: bold;
+} */
+
+/* #p1{
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+
+
+#p1{
+    font-variant: small-caps      ;
+}
+
+
+
+
+
+<!-- ------------------------------------------------------------------------------ -->
+
+
+
+
+
+
+<!-- Text Property -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./pratice.css">
+</head>
+<body>
+    <div class="container">
+        <h1>This is Heading</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, quis.</p>
+        
+    </div>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+/* h1 {
+    text-align: center;
+}
+.container>p{
+    text-align:center;
+} */
+
+/* .container > h1{
+    text-align: right;
+} */
+/* .container > h1{
+    text-align: end;
+} */
+
+
+
+
+/* .container >h1{
+    text-decoration: none;
+} */
+ /* .container > h1{
+    text-decoration: underline;
+ } */
+
+
+ /* .container > h1{
+    text-decoration: overline;
+ } */
+/* 
+
+ .container > h1{
+    text-decoration: line-through;
+ } */
+
+ /* .container > h1{
+    text-decoration: solid;
+ } */
+
+
+
+ /* .container > h1 {
+    text-decoration-line: none;
+ } */
+
+ /* .container > h1{
+    text-decoration-line: underline;
+ } */
+
+
+ /* .container > h1{
+    text-decoration-line: overline;
+ } */
+
+
+ /* .container > h1{
+    text-decoration-line: line-through;
+ } */
+
+
+ /* .container > h1{
+    text-decoration-line: inherit;
+ } */
+
+ /* h1{
+    text-decoration-line: line-through; 
+    text-decoration-color: blue;
+ } */
+
+ /* .container >h1 {
+    color: green;
+    text-decoration: line-through;
+    text-decoration-color:red ;
+    text-decoration-style:wavy;
+
+ } */
+
+
+
+ /* .container > h1{
+    text-indent: 50px;
+ } */
+
+
+
+ /* .container > h1{
+    text-transform: uppercase;
+ } */
+
+
+ /* .container > h1{
+    text-transform: lowercase;
+ } */
+
+
+ /* .container > h1{
+    text-transform: capitalize;
+ } */
+
+
+
+ /* .container > h1{
+    text-shadow: 5px 2px 3px black;
+ } */
+
+/* ---------------------------Space---------------------- */
+
+
+ /* .container > h1{
+    letter-spacing: 20em;
+ } */
+
+
+ /* .container > h1{
+    word-spacing: 20em;
+ } */
+
+
+ .container > h1{
+    text-indent: 30px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 20px;
+    
+ }
+
+
+
+
+
+
+
+ <!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+
+
+
+
+
+
+
+ <!-- Units -->
+
+
+
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./pratice.css">
+</head>
+<body>
+    <div class="container">
+        <h1>This is Heading</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+/* .container > h1{
+    background-color: red;
+    height: 10mm;
+    width: 20mm
+    
+    ;
+}
+
+.container > h1{
+    background-color: red;
+    height: 10cm;
+    width: 20cm;
+}
+.container > h1{
+    background-color: red;
+    height: 50px;
+    width: 40px;
+} */
+
+
+
+
+/* .container > h1{
+    background-color: red;
+    height: 10%;
+    width: 20%;
+} */
+
+
+/* .container > h1{
+    background-color: red;
+    height: 10vw;
+    width: 20vw;
+} */
+
+
+
+.container > h1{
+    background-color: red;
+    height: 10rem;
+    width: 20rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+
+
+
