@@ -925,3 +925,469 @@ h1,h2,h3{
 
 
 
+<!-- Box model , padding ,margin -->
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratice</title>
+    <link rel="stylesheet" href="./pratice.css">
+</head>
+
+<body>
+    <div class="container1">
+        <h1>Container1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod voluptates accusamus ex quibusdam explicabo,
+            eveniet consequuntur in qui aut aliquid!</p>
+    </div>
+
+    <div class="container2">
+        <h1>Container2</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repellendus animi dolor qui numquam a odit vero quia quod in?</p>
+    </div>
+
+    <div class="circle">
+        
+    </div>
+</body>
+
+</html> -->
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <link rel="stylesheet" href="./pratice.css">
+</head>
+<body>
+    <!-- <div class="container">
+        <h1>Our Products</h1>
+        <h5>Store</h5>
+        <h5>Pen</h5>
+        <h5>Pin</h5>
+        <h5>Flower</h5>
+        <h5>Mirror</h5>
+
+    </div> -->
+
+    <div class="container2">
+        <h1>This is Container2</h1>
+        <p>This is Paragraph</p>
+    </div>
+    <!-- <div>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div> -->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
+/* .container1 {
+    height: 200px;
+    width: 300px;
+    background-color: cadetblue;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px; 
+    margin-left: 20px;  
+}
+
+
+.container1 >h1{
+    padding: 20px;
+}
+
+.container1 > p{
+    padding: 20px;
+}
+ */
+
+
+
+/* --------------------- */
+
+
+/* .container2 {
+    height: 200px;
+    width: 300px;
+    background-color: aqua;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+} */
+
+
+
+/* .container2 > h1 {
+    padding: 20px;
+
+}
+
+
+.container2 > p{
+    padding: 20px;
+} */
+
+
+
+
+/* 
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 200px;
+    width: 300px;
+    background-color: violet;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 200px;
+    margin-left: 500px;
+    content:icon;
+} */
+
+
+
+
+
+/* *{
+    padding: 20px;
+} */
+
+
+/* .container2 {
+    height: 200px;
+    width: 300px;
+    box-sizing: border-box;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: yellow;
+}  */
+
+
+
+
+/* .container2 {
+    height: 200px;
+    width: 300px;
+    box-sizing: border-box;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: yellow;
+    margin: 100px;
+}  */
+
+
+/* .container2 { */
+    /* height: 20px;
+    width: 30px; */
+    /* padding: 10px ; */
+    /* padding-left: 30px; */
+
+/* } */
+
+/* .container2 {
+    height: 200px;
+    width: 300px;
+    border-width: 20px;
+    border-style: dashed;
+    border: color(srgb rgb(126, 50, 50) green blue);
+
+} */
+
+/* .container2 {
+    height: 200px;
+    width: 300px;
+    /* border-width: 20px;
+    border-style: dashed;
+    border: color(srgb rgb(126, 50, 50) green blue); */
+    /* border: 20px dashed black;
+    border-radius: 50px; }*/
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- -=-------------------------------------------------------------------- -->
+
+
+
+
+
+<!-- Task -->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratice</title>
+    <link rel="stylesheet" href="./pratice.css">
+</head>
+
+<body>
+    <div class="container">
+        <button>Phone</button>
+        <button>Charger</button>
+        <button>Headset</button>
+        <button>PowerBank</button>
+        <button>Sim</button>
+        <button>Cable</button>
+    </div>
+
+
+
+    <div class="box">
+
+    </div>
+</body>
+
+</html>
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    background: rgb(3, 206, 111);
+    
+}
+
+.container {
+    width: 300px;
+    
+}
+
+
+.container {
+      background-color:violet;
+      margin-top: 20px;
+      margin-left: 30px;
+      border-radius: 40px;
+      padding: 40px;
+      box-shadow: inset blue;
+      justify-content: center;
+      align-items: center;
+      
+}
+
+/* .container > button{
+    padding: 20px;
+} */
+
+
+.container > button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    font-weight: bold;
+      font-family: 'Courier New', Courier, monospace;
+      font-style: normal;
+      text-transform: uppercase;
+      justify-content: center;
+      align-items: center;
+}
+
+.container > button:hover{
+    background-color: seagreen;
+}
+
+
+
+
+.box {
+    height: 300px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- -------------------------------------------------------------------------------- -->
+
+
+
+
+
+
+
+<!-- Border Property -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+    <link rel="stylesheet" href="./pratice.css">
+</head>
+<body>
+    <div class="container">
+        
+    </div>
+</body>
+</html>
+
+
+
+
+.container {
+    height: 200px;
+    width: 300px;
+    border: 2px solid red;
+    margin: 30px;
+    background-color: red;
+    box-sizing: border-box;
+    /* border-width: 40px; */
+    /* border-width: 20px 40px 60px 80px; */
+    /* border-style: outset; */
+     /* border-top-style: solid;
+     border-right-style: dashed;
+     border-bottom-style: dotted;
+     border-left-style: double; */
+     /* border-color: black; */
+     /* border-top-color: black;
+     border-right-color: rgb(224, 220, 220);
+     border-bottom-color: rgb(224, 15, 15);
+     border-left-color: rgb(67, 15, 209); */
+
+
+     /* border-radius: 30px  50%; */
+     /* border-top-left-radius:30px ;
+     border-top-right-radius: 50em; */
+
+     /* border-top: 5px solid red;
+     border-right: 10px dashed blue;
+     border-bottom: 3px double black;
+     border-left: 2px dotted green; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ------------------------------------------------------------------ -->
+
+
+
+
+
+
+
+
+
+
+
+
