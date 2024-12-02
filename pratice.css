@@ -4,17 +4,40 @@
     box-sizing: border-box;
 }
 
-.outer .card {
-    height: 300px;
-    width: 260px;
-    border: 2px solid black;
-}
 
 
-.outer {
+/* .outer{
     height: 100vh;
+    background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
-}
+} */
+
+/* .container{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    /* /* transition: all; */
+    /* transition: 1s ease 1s; */ 
+
+    /* transition-delay: 1s;  */
+    /* transition-timing-function:ease-out ; */
+    /* transition-duration:blue 1s; */
+    /* transition: all 1s ease-in 1s; */
+    
+/* }
+
+.container:hover{
+    border-radius: 50%;
+
+    background-color: orange;
+} */
+
+
+
+/* .box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+} */
