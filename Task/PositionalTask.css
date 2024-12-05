@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background: linear-gradient(to left,white,blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.inner{
+    height: 500px;
+    width: 500x;
+    border: 2px solid black;
+    position: relative;
+}
+
+
+.inner>#i1{
+    height: 100px;
+    position: absolute;
+    top: 0%;
+    bottom: 100%;
+}
+

@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    height: 600px;
+    border: 2px solid black;
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: 300px 300px 300px;
+    /* grid-template-rows: 200px; */
+    justify-content: center;
+    /* grid-template-rows: 100px 200px; */
+    /* grid-auto-rows: 80px; */
+    /* align-content: center; */
+    
+}
+
+.box{
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#box1{
+    grid-row: span 2;
+}
+
+
+#box1{
+    background-image: url(https://images.pexels.com/photos/688660/pexels-photo-688660.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: 100% 100%;
+}
+
+#box2{
+    background-image: url(https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: 100% 100%;
+}
+
+#box3{
+    background-image: url(https://images.pexels.com/photos/147640/pexels-photo-147640.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: 100% 100%;
+    
+}
+
+#box4{
+    grid-column: span 2;
+    background-image: url(https://images.pexels.com/photos/269583/pexels-photo-269583.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: 200% 200%;
+    
+}
+
+#box5{
+    background-image: url(https://images.pexels.com/photos/2583833/pexels-photo-2583833.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: 100% 100%;
+}
+
+#box6{
+    background-image: url(https://images.pexels.com/photos/27868697/pexels-photo-27868697/free-photo-of-sunflowers-in-a-field-at-sunset.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: 100% 100%;
+}
+
+#box7{
+    background-image: url(https://images.pexels.com/photos/16372800/pexels-photo-16372800/free-photo-of-spring-pink-tree-blossoms.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: 100% 100%;
+}
+
+
+
+h1{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* background-color: aqua; */
+    /* align-content: center; */
+}
+
+/* .box :hover{
+    
+} */

@@ -2399,6 +2399,125 @@ body{
     transform: translate(-50%, -50%);
 }
 
+<!-- ------------------------------------------------------------------------- -->
+
+
+
+<!-- Animation -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <link rel="stylesheet" href="./pratice.css">
+</head>
+<body>
+    <div class="outer">
+        <div class="inner">
+            <div class="box"></div>
+        </div>
+        <div class="inner2">
+            <div class="box2"></div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.inner{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+}
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    /* transform: translate(); */
+    animation: movingBox 0.50s ease-in-out ;
+    /* animation-direction: alternate; */
+    animation-fill-mode:both;
+
+    /* transform: translate(300px); */
+
+    /* transform: translate(300px,300px); */
+    /* transform: translate(0px,300px); */
+}
+
+@keyframes movingBox{
+
+    /* 0%{
+        transform: translate(0,0);
+    }
+
+    25%{
+        transform: translate(300px,0);
+    }
+    50%{
+        transform: translate(300px,300px);
+    }
+    75%{
+        transform: translate(0,300px);
+
+
+
+    /* } */
+    from { 
+        transform: translate(300px); 
+    } 
+    to { 
+        transform: translate();
+     }
+
+
+
+
+} 
+
+
+
+
+
+<!-- ----------------------------------------------------------------------------- -->
+
+
+
+
+
 
 
 
